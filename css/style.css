@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+.header {
+    background-color: #e0d8de;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: right;
+
+}
+
+nav a {
+    font-family: Verdana;
+    color: #254441;
+    text-decoration: none;
+}
+
+p a {
+    font-family: Verdana;
+    font-style: italic;
+    color: #254441;
+    text-decoration: none;
+}
+
+.titulos {
+    font-family: "Open Sans";
+    font-weight: bolder;
+    background-color: #cdc7e5;
+
+}
+
+#main-index {
+    background-color: #cdc7e5;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: left;
+    color: #254441;
+    font-family: "Open Sans";
+
+}
+
+#main-nosotres {
+    font-family: "Open Sans";
+    text-align: center;
+    background-color: #cdc7e5;
+
+}
+
+
+#main-contacto {
+    font-family: "Open Sans";
+    background-color: #cdc7e5;
+}
+
+#main-cristales {
+    font-family: "Open Sans";
+    background-color: #cdc7e5;
+
+
+}
+
+#main-preguntas {
+
+    font-family: "Open Sans";
+    background-color: #cdc7e5;
+}
+
+.footer {
+
+    background-color: #e0d8de;
+    text-align: center;
+}
