@@ -81,7 +81,7 @@
     color: #f1f1f1;
     width: 97%;
     padding: 20px;
-    /* Some padding */
+
 }
 
 #main-nosotres {
@@ -163,7 +163,12 @@
         padding-right: 50px;
         font-size: smaller;
     }
-
+   .contenido, .cuerpo-index{
+    font-size: 11pt;
+    height:50%;
+    width: 95%;
+   
+   } 
     .footer {
         color: #254441 !important;
         text-align: center;
