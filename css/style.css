@@ -10,11 +10,11 @@
     display: block;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: #cebfca;
+    padding-bottom: 5px;
+    background-color: #eadae6;
     font-family: "Poppins";
     font-size: 20px;
     text-decoration: none;
-
 }
 
 .nav-logo {
@@ -47,7 +47,8 @@
     margin-bottom: 0;
     font-family: "Open Sans";
     font-weight: bolder;
-    background-color: #cebfca;
+    background-image: linear-gradient(#eadae6,#cebfca);
+
 
 }
 
@@ -79,6 +80,17 @@
     color: #254441;
     font-family: "Open Sans";
     font-weight: bolder;
+   
+}
+.cuerpo-nos{
+
+    
+}
+.subtitulo {
+    background-color: #cebfca;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 10px;
 }
 
 #main-contacto {
@@ -90,11 +102,9 @@
     font-family: "Open Sans";
     background-image: linear-gradient(#e0d8de, white);
 
-
 }
 
 #main-preguntas {
-
     font-family: "Open Sans";
     background-image: linear-gradient(#e0d8de, white);
 }
@@ -102,7 +112,7 @@
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #cdc7e5;
+    background-color: #eadae6;
     font-family: "Poppins";
     color: #254441 !important;
     text-align: center;
@@ -116,7 +126,7 @@
 
 @media (max-width: 790px) {
     .header {
-       overflow:hidden;
+        overflow: hidden;
         display: flex;
         padding-top: 15px;
         padding-left: 20px;
