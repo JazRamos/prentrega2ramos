@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
 
 * {
@@ -7,60 +7,88 @@
 }
 
 .header {
-   
+    display: block;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: #e0d8de;
+    background-color: #cebfca;
     font-family: "Poppins";
     font-size: 20px;
-    text-align: right;
     text-decoration: none;
 
 }
 
+.nav-logo {
+    justify-content: flex-start;
+    width: 10%;
+}
+
+.links-fix {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 100px;
+
+}
+
+.nav-item {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .nav-link {
     color: #254441 !important;
-   
 }
 
 .titulos {
+    display: block;
+    padding-top: 15px;
+    padding-left: 40px;
+    margin-bottom: 0;
     font-family: "Open Sans";
     font-weight: bolder;
-    background-color: #cdc7e5;
+    background-color: #cebfca;
 
 }
 
 #main-index {
+
+    align-content: center;
+    background-image: linear-gradient(#cebfca, white);
+    text-align: left;
+    color: #254441;
+    font-family: "Open Sans";
+    font-weight: bolder;
+
+}
+
+
+.cuerpo-index {
+    font-size: 25px !important;
+
+}
+
+
+#main-nosotres {
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-image: linear-gradient(#e0d8de, white);
-    text-align: left;
+    background-image: linear-gradient(#cebfca, white);
+    text-align: center;
     font-size: 12px;
     color: #254441;
     font-family: "Open Sans";
-
+    font-weight: bolder;
 }
-.cuerpo-index{
-
-    font-size: 25px !important;
-}
-#main-nosotres {
-    font-family: "Open Sans";
-    text-align: center;
-    background-color: #cdc7e5;
-
-}
-
 
 #main-contacto {
     font-family: "Open Sans";
-    background-color: #cdc7e5;
+    background-image: linear-gradient(#e0d8de, white);
 }
 
 #main-cristales {
     font-family: "Open Sans";
-    background-color: #cdc7e5;
+    background-image: linear-gradient(#e0d8de, white);
 
 
 }
@@ -68,32 +96,39 @@
 #main-preguntas {
 
     font-family: "Open Sans";
-    background-color: #cdc7e5;
+    background-image: linear-gradient(#e0d8de, white);
 }
 
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #e0d8de;
-    font-family: "Poppins"; 
-    font-size: 12px;
-    color: #254441;
+    background-color: #cdc7e5;
+    font-family: "Poppins";
+    color: #254441 !important;
     text-align: center;
     text-decoration: none;
 }
 
+.navbar-brand {
+    font-size: 16px !important;
+}
 
 
-@media (max-width: 520px) {
+@media (max-width: 790px) {
     .header {
+       overflow:hidden;
         display: flex;
         padding-top: 15px;
-        align-items: center;
-        justify-content: center;
-        padding-left: 50px;
+        padding-left: 20px;
         padding-right: 50px;
         font-size: smaller;
     }
 
-}
+    .footer {
+        color: #254441 !important;
+        text-align: center;
+        text-decoration: none;
+        font-size: smaller;
+    }
 
+}
