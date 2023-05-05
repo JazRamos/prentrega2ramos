@@ -19,14 +19,6 @@
 }
 
 
-.links-fix {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-right: 100px;
-
-}
-
 .nav-item {
     display: flex;
     padding-left: 10px;
@@ -36,7 +28,9 @@
 .nav-link {
     color: #254441 !important;
 }
-
+.container-fluid{
+    justify-content:flex-start !important;
+}
 .titulos {
     display: block;
     padding-top: 15px;
@@ -153,18 +147,19 @@
     text-decoration: none;
 }
 
-.navbar-brand {
-    font-size: 16px !important;
-}
-
+.navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: 0; */
+    flex-grow: 0; 
+    margin: 15px;}
 
 @media (max-width: 790px) {
     .header {
-        overflow: hidden;
         display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
         padding-top: 15px;
-        padding-left: 20px;
-        padding-right: 50px;
         font-size: smaller;
     }
    .contenido, .cuerpo-index{
