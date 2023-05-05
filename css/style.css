@@ -122,7 +122,6 @@
 
 #main-preguntas {
     align-content: center;
-   
     font-family: "Open Sans";
     background-image: linear-gradient(#cebfca, white);
     color: #254441;
@@ -153,7 +152,7 @@
         padding-top: 15px;
         font-size: smaller;
     }
-   .contenido, .cuerpo-index{
+   .contenido, .cuerpo-index, #main-nosotres, #main-cristales, #main-contacto {
     font-size: 11pt;
     height:50%;
     width: 95%;
