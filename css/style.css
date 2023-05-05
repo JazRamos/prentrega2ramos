@@ -71,8 +71,6 @@
 }
 
 #main-nosotres {
-    display: flex;
-    flex-direction: column;
     align-content: center;
     background-image: linear-gradient(#cebfca, white);
     font-size: 12px;
@@ -95,7 +93,7 @@
 }
 
 #main-contacto {
-    display: flex;
+    align-content: center;
     flex-direction: column;
     padding-left: 30px;
     font-family: "Open Sans";
@@ -110,6 +108,7 @@
 }
 
 #main-cristales {
+    align-content: center;
     font-family: "Open Sans";
     background-image: linear-gradient(#cebfca, white);
     padding-bottom: 20px;
@@ -123,7 +122,7 @@
 }
 
 #main-preguntas {
-    display: flex;
+    align-content: center;
     flex-direction: column;
     align-content: center;
     font-family: "Open Sans";
