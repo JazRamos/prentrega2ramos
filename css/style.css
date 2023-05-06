@@ -28,9 +28,11 @@
 .nav-link {
     color: #254441 !important;
 }
-.container-fluid{
-    justify-content:flex-start !important;
+
+.container-fluid {
+    justify-content: flex-start !important;
 }
+
 .titulos {
     display: block;
     padding-left: 50px;
@@ -80,13 +82,19 @@
 
 }
 
+.cuerpo-nos {
+    text-align: center;
+
+}
+
 .subtitulo {
     background-color: #cebfca;
     text-align: center;
     margin: 0;
     padding-bottom: 10px;
 }
-.subtitulo-dos{
+
+.subtitulo-dos {
     text-align: center;
     margin: 0;
     padding-bottom: 10px;
@@ -99,7 +107,8 @@
     color: #254441 !important;
     background-image: linear-gradient(#cebfca, white);
 }
-.cuerpo-contacto{
+
+.cuerpo-contacto {
     background-image: linear-gradient(#cebfca, white);
     padding-bottom: 20px;
 
@@ -141,8 +150,9 @@
     display: flex;
     flex-direction: row;
     /* flex-basis: 0; */
-    flex-grow: 0; 
-    margin: 15px;}
+    flex-grow: 0;
+    margin: 15px;
+}
 
 @media (max-width: 790px) {
     .header {
@@ -152,12 +162,18 @@
         padding-top: 15px;
         font-size: smaller;
     }
-   .contenido, .cuerpo-index, #main-nosotres, #main-cristales, #main-contacto {
-    font-size: 11pt;
-    height:50%;
-    width: 95%;
-   
-   } 
+
+    .contenido,
+    .cuerpo-index,
+    #main-nosotres,
+    #main-cristales,
+    #main-contacto {
+        font-size: 11pt;
+        height: 50%;
+        width: 95%;
+
+    }
+
     .footer {
         color: #254441 !important;
         text-align: center;
