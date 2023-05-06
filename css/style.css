@@ -96,7 +96,8 @@
 
 .subtitulo-dos {
     text-align: center;
-    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
     padding-bottom: 10px;
 }
 
@@ -135,6 +136,14 @@
     background-image: linear-gradient(#cebfca, white);
     color: #254441;
 }
+.accordion{
+    padding-top: 15px;
+    font-family: "Open Sans";
+    --bs-accordion-color: #254441;
+    --bs-accordion-btn-focus-border-color: #86fede;
+    --bs-accordion-active-color: #254441;
+    --bs-accordion-active-bg:#dafaf2;
+}
 
 .footer {
     display: flex;
@@ -166,6 +175,7 @@
     .contenido,
     .cuerpo-index,
     #main-nosotres,
+    #main-preguntas,
     #main-cristales,
     #main-contacto {
         font-size: 11pt;
